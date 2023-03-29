@@ -1,18 +1,11 @@
 # Wine Quality Prediction in Spark over AWS
  
-> build a wine quality prediction ML model in Spark over AWS
+> build a wine quality prediction ML model in Spark over AWS 
   
-## 🚩 Table of Contents  
-* [Description](#-Description)  
-* [Preparing development environment](#-Preparing-development-environment)  
-* [Running programs in AWS](#-Running-programs-in-AWS)  
-* [Credits](#-Credits)  
-* [License](#-License)  
-  
-## 🚩 Description  
+## Description  
      
 Develop machine learning applications in Amazon AWS cloud platform. Use Apache Spark to train an ML model on EC2 instances. Use Spark's MLlib to develop and use an ML model in the cloud.
-## 🚩 Preparing development environment  
+## Preparing development environment  
   
 1. Sign up for an AWS account if you haven't.  
 2. Launch instance 
@@ -20,7 +13,7 @@ Develop machine learning applications in Amazon AWS cloud platform. Use Apache S
 > Note2: add Rule under Configure Security Group, set 'port range = 8888' and 'source = 0.0.0.0/0'.
 > Note3: save .pem file to local, e.g. /path/your.pem  
 
-## 🚩 Running programs in AWS   
+## Running programs in AWS   
   
 1. Connecting to instance using SSH  
 ```bash  
@@ -91,13 +84,7 @@ $ vi jupyter_notebook_config.py
 $ jupyter notebook
 ```
 In browswer, go to https://[instance public DNS]:8888
-> tokens can be found in terminal
-
-## 🚩 Credits  
-Developer: Yupeng Lei  
+> tokens can be found in terminal 
   
-Thanks to Cristian Borcea@NJIT, Hessam Mohammadi@NJIT  
-  
-  
-## 🚩 License  
-The MIT License
+## License  
+This software is released under the MIT License.
